@@ -5,6 +5,9 @@ export class AppController {
   @Get()
   @Render('index')
   root() {
-    return { message: 'Hello' };
+    return { 
+			message: 'Hello',
+			title: 'Агентство Алгоритмика'
+		};
   }
 }
